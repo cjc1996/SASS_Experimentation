@@ -1,3 +1,49 @@
-p{
-  font-size: 16px;
+//variables
+  //primary colours
+$primaryColor: #90caf9;
+$primaryColorLight: #c3fdff;
+$primaryColorDark: #5d99c6;
+  //secendary colours
+$secondaryColor: #ff8f00;
+$secondaryColorLight: #ffc046;
+$secondaryColorDark: #c56000;
+  //text colours
+$textColor: #212121;
+  //fonts
+$mainFont: 'Arimo', sans-serif;
+
+
+//syntax
+*{
+  margin: 0;
+  padding: 0;
+  color: $textColor;
 }
+
+.heading{
+  background-color: $primaryColor;
+  padding: 1.25em;
+  font-family: $mainFont;
+}
+
+.navigation{
+  background-color: $primaryColorLight;
+  padding: 0.75em;
+  font-family: $mainFont;
+}
+
+.mainContent{
+  padding: 0.5em;
+  font-family: $mainFont;
+  p{
+    font-size: 16px;
+  }
+}
+
+.foot{
+  background-color: $primaryColorLight;
+  padding: 1em;
+  font-family: $mainFont;
+}
+
+//media queries

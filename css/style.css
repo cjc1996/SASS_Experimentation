@@ -1,4 +1,27 @@
-p {
-  font-size: 16px; }
+* {
+  margin: 0;
+  padding: 0;
+  color: #212121; }
+
+.heading {
+  background-color: #90caf9;
+  padding: 1.25em;
+  font-family: "Arimo", sans-serif; }
+
+.navigation {
+  background-color: #c3fdff;
+  padding: 0.75em;
+  font-family: "Arimo", sans-serif; }
+
+.mainContent {
+  padding: 0.5em;
+  font-family: "Arimo", sans-serif; }
+  .mainContent p {
+    font-size: 16px; }
+
+.foot {
+  background-color: #c3fdff;
+  padding: 1em;
+  font-family: "Arimo", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
