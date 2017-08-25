@@ -1,46 +1,77 @@
 //variables
   //primary colours
-$primaryColor: #90caf9;
-$primaryColorLight: #c3fdff;
-$primaryColorDark: #5d99c6;
+$primaryColor: #7cb342;
+$primaryColorLight: #aee571;
+$primaryColorDark: #4b830d;
   //secendary colours
-$secondaryColor: #ff8f00;
-$secondaryColorLight: #ffc046;
-$secondaryColorDark: #c56000;
+$secondaryColor: #424242;
+$secondaryColorLight: #6d6d6d;
+$secondaryColorDark: #1b1b1b;
+  //body colour
+$bodyColor: #f5f5f6;
   //text colours
-$textColor: #212121;
+$textColorPrimary: #212121;
+$textColorSecondary: #f5f5f5;
   //fonts
 $mainFont: 'Arimo', sans-serif;
 
-
 //syntax
-*{
+*
+{
   margin: 0;
   padding: 0;
-  color: $textColor;
 }
 
-.heading{
+body
+{
+  background-color: $bodyColor;
+  color: $textColorPrimary;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+ul
+{
+  list-style: none;
+}
+
+.heading
+{
   background-color: $primaryColor;
   padding: 1.25em;
   font-family: $mainFont;
+  display: flex;
 }
 
-.navigation{
+.navigation
+{
   background-color: $primaryColorLight;
   padding: 0.75em;
   font-family: $mainFont;
+  display: flex;
 }
 
-.mainContent{
+.mainWrap
+{
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.mainContent
+{
   padding: 0.5em;
   font-family: $mainFont;
-  p{
+  display: flex;
+  flex: 1 0 auto;
+  p
+  {
     font-size: 16px;
   }
 }
 
-.foot{
+.foot
+{
   background-color: $primaryColorLight;
   padding: 1em;
   font-family: $mainFont;

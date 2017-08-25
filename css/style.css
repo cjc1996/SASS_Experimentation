@@ -1,26 +1,43 @@
 * {
   margin: 0;
-  padding: 0;
-  color: #212121; }
+  padding: 0; }
+
+body {
+  background-color: #f5f5f6;
+  color: #212121;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; }
+
+ul {
+  list-style: none; }
 
 .heading {
-  background-color: #90caf9;
+  background-color: #7cb342;
   padding: 1.25em;
-  font-family: "Arimo", sans-serif; }
+  font-family: "Arimo", sans-serif;
+  display: flex; }
 
 .navigation {
-  background-color: #c3fdff;
+  background-color: #aee571;
   padding: 0.75em;
-  font-family: "Arimo", sans-serif; }
+  font-family: "Arimo", sans-serif;
+  display: flex; }
+
+.mainWrap {
+  display: flex;
+  flex: 1 1 auto; }
 
 .mainContent {
   padding: 0.5em;
-  font-family: "Arimo", sans-serif; }
+  font-family: "Arimo", sans-serif;
+  display: flex;
+  flex: 1 0 auto; }
   .mainContent p {
     font-size: 16px; }
 
 .foot {
-  background-color: #c3fdff;
+  background-color: #aee571;
   padding: 1em;
   font-family: "Arimo", sans-serif; }
 
